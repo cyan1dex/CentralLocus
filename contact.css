@@ -1,0 +1,155 @@
+﻿form {
+    display: block;
+    margin-top: 0em;
+}
+
+div {
+    display: block;
+}
+
+body {
+    font-size: 100%;
+    font-family: "Helvetica",Helvetica,Arial,sans-serif;
+    font-size-adjust: 100%;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    background: #fff;
+    position: relative;
+    color: #3c3c3c;
+}
+
+.g-recaptcha-response {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #c1c1c1;
+    margin: 10px 25px;
+    padding: 5px;
+    resize: none;
+}
+
+.g-recaptcha {
+    width: 300px;
+    height: 60px;
+    border-style: none;
+    bottom: 12px;
+    left: 25px;
+    margin: 2x;
+    padding: 4px;
+    right: 25px;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    border-radius: 3px;
+}
+
+/*@media screen and (min-width: 53.5625em)*/
+#content {
+    float: left;
+    padding-right: 29.16667%;
+    width: 100%;
+}
+
+submitbtn {
+    padding: 10px;
+}
+
+.block {
+    padding-left: 20px;
+}
+
+/*@media screen and (min-width: 46.875em)
+#content {
+    float: left;
+    padding-right: 250px;
+    width: 100%;
+}*/
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+fieldset {
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    min-width: -webkit-min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
+
+
+.widget input, .widget textarea, .detailedform input, .detailedform textarea {
+    border: 1px solid #b2b2b2;
+    line-height: 2.5em;
+    height: 2.5em;
+    margin-bottom: .5em;
+    outline: none;
+    padding: 0 10px;
+}
+
+
+
+/*.detailedform fieldset {
+    border: none;
+    padding: 0;
+}*/
+
+.detailedform label {
+    width: 100%;
+    float: left;
+}
+
+.detailedform fieldset {
+    border: none;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+input, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+
+input, textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}

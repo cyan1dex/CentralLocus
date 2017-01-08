@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Central Locus" />
+    <link rel="stylesheet" type="text/css" href="Style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="MenuBar.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="contact.css" media="all" />
+
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <!-- start header here-->
+        <header>
+            <div id="fdw">
+                <h1><span>Central</span> Locus</h1>
+                <!--nav-->
+                <nav>
+                    <ul>
+                        <li> <a href="/index.html">home</a></li>
+                        <li class="current"><a href="/">contact</a></li>
+                        <li><a href="/privacy.html">privacy policy</a>
+                    </ul>
+                </nav>
+            </div><!-- end fdw -->
+        </header><!-- end header -->
+
+
+        <div id="content">
+            <div class="sidebar primary-sidebar"></div>
+
+            <div class="block">
+                <div class="detailedform">
+                    <div class="block description"> </div>
+                    <form name="detailedForm" id="detailedForm" action="process.php" method="post">
+                        <div id="errmsg"></div>
+                        <input type="hidden" name="site_id" value="2640653" />
+                        <input type="hidden" name="From_Page" value="Contact Us" />
+                        <input type="hidden" name="return_url" value="http://www.centrallocus.com/thank-you.html" id="return_url_f" />
+                        <input type="hidden" name="current_url" value="http://www.centrallocs.com/contact-us.html" id="current_url_f" />
+                        <input type="hidden" name="big_or_small" value="big" /> 
+
+                        <fieldset>
+                            <legend>Contact Information</legend>
+                            <label for="Name">
+                                <strong>Name: (Required) </strong> <span>
+                                    <input name="name" type="text" id="mame" size="40" placeholder="Your Name" autocomplete="name" required />
+                                </span>
+                            </label>
+                            <label for="Email">
+                                <strong>Email: (Required) </strong>
+                                <span><input name="email" type="text" id="email" size="40" placeholder="Your Email" autocomplete="email" required /></span>
+                            </label>
+                            <label for="Phone">
+                                <strong>Phone Number: </strong> 
+                                <span>
+                                    <input name="phone" type="text" id="phone" size="40" placeholder="Your Phone" autocomplete="tel" required />
+                                </span>
+                            </label>
+                        </fieldset>
+                        <div class="g-recaptcha" data-sitekey="6LfhQxAUAAAAAGStrprveFSXfFdG3IDzp389Wg9F"></div>
+
+                        <div class="submitbtn" id="submitbtn">
+                            <input name="Submit" type="submit" id="Submit" value="Submit" />
+                        </div>
+
+                        <div class="clr">
+                            <input type="hidden" name="required_fields" value="mame,email" />
+                        </div>
+                    </form>
+                </div>
+                <!-- End detailedForm -->
+            </div>
+            <!-- ENd Block -->
+        </div>
+        <!-- End content -->
+    </div>
+    <!-- End Container-->
+</body>
+</html>
